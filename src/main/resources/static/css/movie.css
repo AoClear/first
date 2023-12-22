@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+.movie_chart_wrap {
+	margin-top: 30px
+}
+
+.movie_chart_wrap h3 {
+	font-size: 30px;
+	color: red;
+}
+
+.movie_chart_wrap .submenu {
+	font-size: 25px;
+	width: 100%;
+	margin-top: 30px;
+	border-bottom: 2px solid black;
+	position: relative;
+}
+
+
+.movie_chart_wrap .submenu ul {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.insert_bt{
+	font-size: 20px;
+	position: absolute;	
+	right: 0;
+}
+
+.movie_chart {
+	width: 100%;
+}
+
+.movie_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.movie_item {
+	height: 300px;
+	margin: 20px 5px 0 0;
+}

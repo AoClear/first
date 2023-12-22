@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- movie.xml -->
+
+
+<mapper namespace="movie">
+	<select id="list" resultType="kr.co.fmos.movie.MovieDTO">
+		SELECT movie_id, movie_genre_id,
+		movie_name, movie_running_time, movie_production_year,
+		movie_audience_rating, movie_rank, movie_image, movie_video,
+		director_name, actor_name
+		FROM movie
+	</select>
+	
+<!-- 	<insert id="insert" resultType="kr.co.fmos.movie.MovieDTO"> -->
+	
+<!-- 	</insert> -->
+</mapper>

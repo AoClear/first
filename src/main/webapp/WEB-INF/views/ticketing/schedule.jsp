@@ -1,58 +1,28 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ include file="../header.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-<link href="../css/ticketing_style.css" rel="stylesheet" type="text/css">
-<link href="../css/jquery.mCustomScrollbar.css" rel="stylesheet"
+<title>예매 - FirstMovie</title>
+<link href="../css/ticketing/common.css" rel="stylesheet"
 	type="text/css">
+<link href="../css/ticketing/content.css" rel="stylesheet"
+	type="text/css">
+<link href="../css/ticketing/content_lc2.css" rel="stylesheet"
+	type="text/css">
+<link href="../css/ticketing/default.css" rel="stylesheet"
+	type="text/css">
+<link href="../css/ticketing/owl.css" rel="stylesheet" type="text/css">
+<link href="../css/ticketing/dev.css" rel="stylesheet" type="text/css">
+<link href="../css/ticketing/jquery.mCustomScrollbar.css"
+	rel="stylesheet" type="text/css">
 <script src="/js/jquery-3.7.1.min.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script>
-	//지역명 클릭
-	$(document).ready(function() {
-		$('.cinemaSelect .depth1').click(function() {
-			// 모든 li 요소에서 'selected' 클래스를 제거
-			$('.cinemaSelect .depth1').removeClass('active');
-
-			// 클릭된 li 요소에 'selected' 클래스 추가
-			$(this).addClass('active');
-
-			// 선택한 지역에 포함된 지점명들 표시
-			$('.depth2').css('display', 'none');
-			$(this).find('.depth2').css('display', 'block');
-
-			$('.movie_select_wrap').css('display', 'none');
-			$('.timeScroll').css('display', 'none');
-		});
-	});
-
-	//지점명 클릭
-	$(document).ready(function() {
-		$('.cinemaSelect .depth2 li').click(function() {
-			$(this).siblings().removeClass();
-			$(this).addClass('active');
-
-			$('.movie_select_wrap').css('display', 'block');
-			$('.timeScroll').css('display', 'block');
-		});
-	});
-
-	$(document).ready(
-			function() {
-				$('.movie_select_wrap li').click(
-						function() {
-							$(".movie_select_wrap li").removeClass("active")
-									.addClass("disabled");
-
-							$(this).removeClass("disabled").addClass("active");
-						});
-			});
-</script>
+<script src="/js/ticketing_schedule.js"></script>
 
 </head>
 <body>
@@ -308,9 +278,10 @@
 								<option value="B">관객순</option>
 								<option value="D">예정작</option></select>
 						</div>
-						<div class="movie_select_wrap list mCustomScrollbar">
+						<div class="movie_select_wrap list mCustomScrollbar thm">
 							<ul>
-								<li class="active"><a href="#none"><div class="bx_thm">
+								<li class="disabled"><a href="#none"><div
+											class="bx_thm">
 											<span class="rank"><span class="hidden">순위</span><strong>1</strong></span><img
 												src="https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202311/20443_101_1.jpg"
 												alt="포스터" class="mCS_img_loaded">
@@ -1661,5 +1632,7 @@
 		</div>
 	</div>
 	</div>
+
+	<%@ include file="../footer.jsp"%>
 </body>
 </html>

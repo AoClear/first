@@ -18,4 +18,11 @@ public class ticketingCon {
 		mav.setViewName("ticketing/schedule");
 		return mav;
 	}//home() end
+	
+	@GetMapping("/orderSettlement")
+	public ModelAndView orderSettlement() {
+		ModelAndView mav=new ModelAndView();
+		mav.setViewName("ticketing/orderSettlement");
+		return mav;
+	}//home() end
 }
