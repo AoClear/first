@@ -34,6 +34,7 @@ $(document).ready(function() {
 	$('.cinemaSelect .depth2 li').click(function() {
 		event.stopPropagation(); // 이벤트 전파 중지
 
+
 		$(this).siblings().removeClass();
 		$(this).addClass('active');
 

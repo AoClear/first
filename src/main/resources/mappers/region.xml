@@ -2,9 +2,12 @@
 <!DOCTYPE mapper
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
- 
-<!-- "region".xml --> 
+
+<!-- "region".xml -->
 
 <mapper namespace="region">
-
+	<select id="list" resultType="java.util.Map">
+		SELECT region_id, region
+		FROM region
+	</select>
 </mapper>

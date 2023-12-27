@@ -33,38 +33,11 @@
 			<div class="section_step_tit">
 				<ul>
 					<li class="step01 prev"><a href="#"><strong class="tit"><span>01</span><br>상영시간</strong>
-							<div class="bx_con">
-								<dl>
-									<dt>선택한 영화 제목</dt>
-									<dd>노량: 죽음의 바다(Super 4D2D)</dd>
-									<dt>선택한 상영관</dt>
-									<dd>가산디지털 3관, 수퍼 4D</dd>
-									<dt>선택한 상영 날짜</dt>
-									<dd>2023-12-20 (수)</dd>
-									<dt>선택한 시간</dt>
-									<dd>12:30 ~ 15:12</dd>
-								</dl>
-							</div></a></li>
+					</a></li>
 					<li class="step02 prev"><a href="#"><strong class="tit"><span>02</span><br>인원/좌석</strong>
-							<div class="bx_con">
-								<dl>
-									<dt>선택한 인원</dt>
-									<dd>성인1</dd>
-									<dt>선택한 좌석</dt>
-									<dd>A4</dd>
-								</dl>
-							</div></a></li>
+					</a></li>
 					<li class="step03 active"><a href="#"><strong class="tit"><span>03</span><br>결제</strong>
-							<div class="bx_con">
-								<dl>
-									<dt>티켓금액</dt>
-									<dd>18,000원</dd>
-									<dt>할인금액</dt>
-									<dd>0원</dd>
-									<dt>총합계</dt>
-									<dd>18,000원</dd>
-								</dl>
-							</div></a></li>
+					</a></li>
 					<li><a href="#" style="cursor: default;"><strong
 							class="tit"><span>04</span><br>결제완료</strong></a></li>
 				</ul>

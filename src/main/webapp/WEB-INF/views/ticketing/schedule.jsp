@@ -32,19 +32,7 @@
 			<div class="section_step_tit">
 				<ul>
 					<li class="active step01"><a href="#reserveStep01"><strong
-							class="tit"><span>01</span><br>상영시간</strong>
-							<div class="bx_con">
-								<dl>
-									<dt>선택한 영화 제목</dt>
-									<dd>서울의 봄</dd>
-									<dt>선택한 상영관</dt>
-									<dd>서울대입구 일반</dd>
-									<dt>선택한 상영 날짜</dt>
-									<dd>2023-12-15(오늘)</dd>
-									<dt>선택한 시간</dt>
-									<dd>21:20~23:51</dd>
-								</dl>
-							</div></a></li>
+							class="tit"><span>01</span><br>상영시간</strong> </a></li>
 					<li class="disabled"><a style="cursor: default;"><strong
 							class="tit"><span>02</span><br>인원/좌석</strong></a></li>
 					<li class="disabled"><a style="cursor: default;"><strong
@@ -64,204 +52,23 @@
 							<div class="tab_con">
 								<div class="cinema_select_wrap cinemaSelect basicCinema">
 									<ul>
-										<li class="depth1 active"><a href="#none" title="선택됨">서울<em>(24)</em></a>
-											<div class="depth2">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">가산디지털</a></li>
-														<li class=""><a href="#none">가양</a></li>
-														<li class=""><a href="#none">강동</a></li>
-														<li class=""><a href="#none">건대입구</a></li>
-														<li class=""><a href="#none">김포공항</a></li>
-														<li class=""><a href="#none">노원</a></li>
-														<li class=""><a href="#none">도곡</a></li>
-														<li class=""><a href="#none">독산</a></li>
-														<li class=""><a href="#none">브로드웨이(신사)</a></li>
-														<li class="active"><a href="#none">서울대입구</a></li>
-														<li class=""><a href="#none">수락산</a></li>
-														<li class=""><a href="#none">수유</a></li>
-														<li class=""><a href="#none">신대방(구로디지털역)</a></li>
-														<li class=""><a href="#none">신도림</a></li>
-														<li class=""><a href="#none">신림</a></li>
-														<li class=""><a href="#none">에비뉴엘(명동)</a></li>
-														<li class=""><a href="#none">영등포</a></li>
-														<li class=""><a href="#none">용산</a></li>
-														<li class=""><a href="#none">월드타워</a></li>
-														<li class=""><a href="#none">은평(롯데몰)</a></li>
-														<li class=""><a href="#none">중랑</a></li>
-														<li class=""><a href="#none">청량리</a></li>
-														<li class=""><a href="#none">합정</a></li>
-														<li class=""><a href="#none">홍대입구</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">경기/인천<em>(48)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">광교아울렛</a></li>
-														<li class=""><a href="#none">광명(광명사거리)</a></li>
-														<li class=""><a href="#none">광명아울렛</a></li>
-														<li class=""><a href="#none">광주터미널</a></li>
-														<li class=""><a href="#none">구리아울렛</a></li>
-														<li class=""><a href="#none">동탄</a></li>
-														<li class=""><a href="#none">라페스타</a></li>
-														<li class=""><a href="#none">마석</a></li>
-														<li class=""><a href="#none">별내</a></li>
-														<li class=""><a href="#none">병점</a></li>
-														<li class=""><a href="#none">부천(신중동역)</a></li>
-														<li class=""><a href="#none">부천역</a></li>
-														<li class=""><a href="#none">부평</a></li>
-														<li class=""><a href="#none">부평갈산</a></li>
-														<li class=""><a href="#none">부평역사</a></li>
-														<li class=""><a href="#none">북수원(천천동)</a></li>
-														<li class=""><a href="#none">산본피트인</a></li>
-														<li class=""><a href="#none">서수원</a></li>
-														<li class=""><a href="#none">성남중앙(신흥역)</a></li>
-														<li class=""><a href="#none">센트럴락</a></li>
-														<li class=""><a href="#none">송탄</a></li>
-														<li class=""><a href="#none">수원(수원역)</a></li>
-														<li class=""><a href="#none">수지</a></li>
-														<li class=""><a href="#none">시화(정왕역)</a></li>
-														<li class=""><a href="#none">시흥장현</a></li>
-														<li class=""><a href="#none">안산</a></li>
-														<li class=""><a href="#none">안산고잔</a></li>
-														<li class=""><a href="#none">안성</a></li>
-														<li class=""><a href="#none">안양(안양역)</a></li>
-														<li class=""><a href="#none">안양일번가</a></li>
-														<li class=""><a href="#none">영종하늘도시</a></li>
-														<li class=""><a href="#none">오산원동</a></li>
-														<li class=""><a href="#none">용인기흥</a></li>
-														<li class=""><a href="#none">용인역북</a></li>
-														<li class=""><a href="#none">위례</a></li>
-														<li class=""><a href="#none">의정부민락</a></li>
-														<li class=""><a href="#none">인덕원</a></li>
-														<li class=""><a href="#none">인천아시아드</a></li>
-														<li class=""><a href="#none">인천터미널</a></li>
-														<li class=""><a href="#none">주엽</a></li>
-														<li class=""><a href="#none">진접</a></li>
-														<li class=""><a href="#none">파주롯데아울렛</a></li>
-														<li class=""><a href="#none">파주운정</a></li>
-														<li class=""><a href="#none">판교(창조경제밸리)</a></li>
-														<li class=""><a href="#none">평촌(범계역)</a></li>
-														<li class=""><a href="#none">평택비전(뉴코아)</a></li>
-														<li class=""><a href="#none">하남미사</a></li>
-														<li class=""><a href="#none">향남</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">충청/대전<em>(12)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">당진</a></li>
-														<li class=""><a href="#none">대전(백화점)</a></li>
-														<li class=""><a href="#none">대전관저</a></li>
-														<li class=""><a href="#none">대전둔산(월평동)</a></li>
-														<li class=""><a href="#none">대전센트럴</a></li>
-														<li class=""><a href="#none">서산</a></li>
-														<li class=""><a href="#none">서청주(아울렛)</a></li>
-														<li class=""><a href="#none">아산터미널</a></li>
-														<li class=""><a href="#none">천안불당</a></li>
-														<li class=""><a href="#none">천안청당</a></li>
-														<li class=""><a href="#none">청주용암</a></li>
-														<li class=""><a href="#none">충주(모다아울렛)</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">전라/광주<em>(10)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">광주(백화점)</a></li>
-														<li class=""><a href="#none">광주광산</a></li>
-														<li class=""><a href="#none">군산나운</a></li>
-														<li class=""><a href="#none">군산몰</a></li>
-														<li class=""><a href="#none">수완(아울렛)</a></li>
-														<li class=""><a href="#none">익산모현</a></li>
-														<li class=""><a href="#none">전주(백화점)</a></li>
-														<li class=""><a href="#none">전주송천</a></li>
-														<li class=""><a href="#none">전주평화</a></li>
-														<li class=""><a href="#none">충장로</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">경북/대구<em>(17)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">경주</a></li>
-														<li class=""><a href="#none">경주황성</a></li>
-														<li class=""><a href="#none">구미공단</a></li>
-														<li class=""><a href="#none">대구광장</a></li>
-														<li class=""><a href="#none">대구율하</a></li>
-														<li class=""><a href="#none">대구현풍</a></li>
-														<li class=""><a href="#none">동성로</a></li>
-														<li class=""><a href="#none">상인</a></li>
-														<li class=""><a href="#none">상주</a></li>
-														<li class=""><a href="#none">성서</a></li>
-														<li class=""><a href="#none">영주</a></li>
-														<li class=""><a href="#none">영천</a></li>
-														<li class=""><a href="#none">포항</a></li>
-														<li class=""><a href="#none">프리미엄구미센트럴</a></li>
-														<li class=""><a href="#none">프리미엄만경</a></li>
-														<li class=""><a href="#none">프리미엄안동</a></li>
-														<li class=""><a href="#none">프리미엄칠곡</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">경남/부산/울산<em>(24)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">거창</a></li>
-														<li class=""><a href="#none">광복</a></li>
-														<li class=""><a href="#none">김해부원</a></li>
-														<li class=""><a href="#none">김해아울렛(장유)</a></li>
-														<li class=""><a href="#none">대영</a></li>
-														<li class=""><a href="#none">동래</a></li>
-														<li class=""><a href="#none">동부산아울렛</a></li>
-														<li class=""><a href="#none">마산(합성동)</a></li>
-														<li class=""><a href="#none">부산명지</a></li>
-														<li class=""><a href="#none">부산본점</a></li>
-														<li class=""><a href="#none">사천</a></li>
-														<li class=""><a href="#none">서면(전포동)</a></li>
-														<li class=""><a href="#none">센텀시티</a></li>
-														<li class=""><a href="#none">양산물금</a></li>
-														<li class=""><a href="#none">엠비씨네(진주)</a></li>
-														<li class=""><a href="#none">오투(부산대)</a></li>
-														<li class=""><a href="#none">울산(백화점)</a></li>
-														<li class=""><a href="#none">울산성남</a></li>
-														<li class=""><a href="#none">진주혁신(롯데몰)</a></li>
-														<li class=""><a href="#none">진해</a></li>
-														<li class=""><a href="#none">창원</a></li>
-														<li class=""><a href="#none">통영</a></li>
-														<li class=""><a href="#none">프리미엄경남대</a></li>
-														<li class=""><a href="#none">프리미엄해운대(장산역)</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">강원<em>(4)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">남원주</a></li>
-														<li class=""><a href="#none">동해</a></li>
-														<li class=""><a href="#none">원주무실</a></li>
-														<li class=""><a href="#none">춘천</a></li>
-													</ul>
-												</div>
-											</div></li>
-										<li class="depth1"><a href="#none">제주<em>(3)</em></a>
-											<div class="depth2" style="display: none;">
-												<div class="mCustomScrollbar">
-													<ul>
-														<li class=""><a href="#none">서귀포</a></li>
-														<li class=""><a href="#none">제주아라</a></li>
-														<li class=""><a href="#none">제주연동</a></li>
-													</ul>
-												</div>
-											</div></li>
+										<c:forEach items="${regionList}" var="region">
+											<li class="depth1"><a href="#none">${region.region}<em>(0)</em>
+											</a>
+												<div class="depth2" style="display: none;">
+													<div class="mCustomScrollbar">
+														<ul>
+															<c:forEach items="${theaterBranchList}"
+																var="theaterBranch">
+																<c:if
+																	test="${region.region_id eq theaterBranch.region_id}">
+																	<li class=""><a href="#none">${theaterBranch.branch_name}</a></li>
+																</c:if>
+															</c:forEach>
+														</ul>
+													</div>
+												</div></li>
+										</c:forEach>
 									</ul>
 								</div>
 							</div>
@@ -280,6 +87,39 @@
 						</div>
 						<div class="movie_select_wrap list mCustomScrollbar thm">
 							<ul>
+								<c:forEach items="${movieList}" var="movie">
+									<li class="disabled"><a href="#none">
+											<div class="bx_thm">
+												<span class="rank"><span class="hidden">순위</span><strong>${movie.movie_rank}</strong></span><img
+													src="${movie.moive_image}" alt="포스터" class="mCS_img_loaded">
+											</div>
+											<div class="group_infor">
+												<div class="bx_tit">
+													<c:choose>
+														<c:when test="${movie.movie_audien eq '전체'}">
+															<span class="ic_grade gr_all">전체 관람가</span>
+														</c:when>
+														<c:when test="${movie.movie_audien eq '12세이상'}">
+															<span class="ic_grade gr_12">12세 관람가</span>
+														</c:when>
+														<c:when test="${movie.movie_audien eq '15세이상'}">
+															<span class="ic_grade gr_15">15세 관람가</span>
+														</c:when>
+														<c:when test="${movie.movie_audien eq '18세이상'}">
+															<span class="ic_grade gr_18">18세 관람가</span>
+														</c:when>
+													</c:choose>
+													<strong class="tit">${movie.movie_name}</strong>
+												</div>
+												<span class="sub_info1"><span class="time blacktype"><span
+														class="roboto">${movie.movie_running_time}</span>분</span></span>
+												<dl>
+													<dt>개봉일</dt>
+													<dd>${movie.movie_production_year}</dd>
+												</dl>
+											</div>
+									</a></li>
+								</c:forEach>
 								<li class="disabled"><a href="#none"><div
 											class="bx_thm">
 											<span class="rank"><span class="hidden">순위</span><strong>1</strong></span><img

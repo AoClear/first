@@ -3,13 +3,9 @@
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!-- theaterBranch.xml -->
+<!-- screen.xml -->
 
-<mapper namespace="theaterBranch">
+<mapper namespace="screen">
 	<select id="list" resultType="java.util.Map">
-		SELECT branch_id, region_id,
-		branch_name, branch_address, branch_number, branch_seats
-		FROM
-		theater_branch
 	</select>
 </mapper>
