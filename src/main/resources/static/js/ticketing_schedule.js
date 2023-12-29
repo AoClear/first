@@ -1,3 +1,6 @@
+let selectedBranchID;
+let selectedMovieID;
+
 // mCustomScrollbar 초기화 및 옵션 설정
 $(document).ready(function() {
 	$(".mCustomScrollbar").mCustomScrollbar({
@@ -34,9 +37,11 @@ $(document).ready(function() {
 	$('.cinemaSelect .depth2 li').click(function() {
 		event.stopPropagation(); // 이벤트 전파 중지
 
-
 		$(this).siblings().removeClass();
 		$(this).addClass('active');
+
+		//선택한 지점 저장
+		selectedBranchID = $(this).data("theaterBranchID");
 
 		$('.movie_select_wrap').css('display', 'block');
 	});
@@ -52,9 +57,38 @@ $(document).ready(
 
 				$(this).removeClass("disabled").addClass("active");
 				$('.timeScroll').css('display', 'block');
+
+				//선택한 영화 저장
+				selectedMovieID = $(this).data("MovieID");
+
+				//상영 시간 구역에 표시할 영화제목
+				let movieGrade = $(".movie_select_wrap .active .ic_grade").attr("class");
+				let movieName = $(".movie_select_wrap .active .tit").text();
+
+				$(".time_select_tit .ic_grade").removeClass().addClass(movieGrade);
+				$(".time_select_tit strong").text(movieName);
 			});
 	});
 
-$(document).ready(function() {
-	$('.timeScroll').css('display', 'block');
-});
+/*$(document).ready(function() {
+	$('.cinemaSelect .depth2 li, .movie_select_wrap li').click(function() {
+		 var showingTimeParam = {
+                branchID: selectedBranchID,
+                movieID: selectedMovieID
+            };
+		
+		$.ajax({
+			type: "POST",
+			contentType: "application/json",
+			url: "/api/movies/showtimes",
+			data: JSON.stringify(showingTimeParam),
+			success: function(result) {
+				// 결과를 화면에 출력
+				$("#showTimesResult").html("<h2>Show Times:</h2><p>" + result.showTimes.join(", ") + "</p>");
+			},
+			error: function(error) {
+				console.log("Error:", error);
+			}
+		});
+	});
+});*/

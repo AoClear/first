@@ -1,7 +1,5 @@
 package kr.co.fmos.ticketing;
 
-import javax.swing.plaf.synth.Region;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,8 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import kr.co.fmos.movie.MovieDAO;
-import kr.co.fmos.region.RegionDAO;
-import kr.co.fmos.theaterBranch.TheaterBranchDAO;
+import kr.co.fmos.region.RegionDAOImp;
+import kr.co.fmos.screenMovieInfo.ScreenMovieInfoDAO;
+import kr.co.fmos.theaterBranch.TheaterBranchDAOImp;
 
 @Controller
 @RequestMapping("/ticketing")
@@ -20,11 +19,13 @@ public class TicketingCon {
 	}
 	
 	@Autowired
-	RegionDAO regionDao;
+	RegionDAOImp regionDao;
 	@Autowired
-	TheaterBranchDAO theaterBranchDao;
+	TheaterBranchDAOImp theaterBranchDao;
 	@Autowired
 	MovieDAO movieDao;
+	@Autowired
+	ScreenMovieInfoDAO screenMovieInfoDao; 
 
 	@GetMapping("/schedule")
 	public ModelAndView schedule() {
@@ -32,6 +33,7 @@ public class TicketingCon {
 		mav.addObject("regionList", regionDao.list());
 		mav.addObject("theaterBranchList", theaterBranchDao.list());
 		mav.addObject("movieList", movieDao.movieList());
+		mav.addObject("screenMovieInfoList", screenMovieInfoDao.list());
 		mav.setViewName("ticketing/schedule");
 		return mav;
 	}// home() end

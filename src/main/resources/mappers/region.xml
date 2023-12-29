@@ -6,7 +6,7 @@
 <!-- "region".xml -->
 
 <mapper namespace="region">
-	<select id="list" resultType="java.util.Map">
+	<select id="list" resultType="kr.co.fmos.region.RegionDTO">
 		SELECT region_id, region
 		FROM region
 	</select>
